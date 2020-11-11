@@ -93,7 +93,6 @@ body {
     justify-content: space-between;
     padding-bottom: 15px;
     padding-top: 15px;
-    background-color: blue;
     max-height: 120px;
 }
 
@@ -220,4 +219,18 @@ body {
 
 .postBody > p {
     width: 560px;
+}
+
+.aboutBody p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 560px
+}
+
+.aboutBody {
+    padding: 36px 10px 15px 105px;
+}
+
+.aboutBlog{
+    margin-top: 10px;
 }
