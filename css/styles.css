@@ -116,6 +116,11 @@ body {
     text-decoration: none;
 }
 
+.desktopNav > a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 
 .contactMe {
     color: white;
@@ -311,7 +316,6 @@ img {
 
     .rightSide {
         width: 90%;
-        background-color: pink;
         margin-left: 20px;
     }
 
@@ -329,17 +333,19 @@ img {
     }
 
     .blogBody {
-        /*background-color: white*/
         padding: 36px 30px 15px 36px;
     }
 
-
-    /*body {
-        background-color: gray;
-        width: 100%;
+    .inputButton {
+        display: flex;
+        flex-direction: column;
+        margin: 3px 0;
+        padding: 0 15px;
     }
 
-    */
+    .inputButton > input {
+        margin-bottom: 8px;
+    }
 
    
 }
