@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    /*overflow: hidden;*/
 }
 
 * {
@@ -22,6 +23,7 @@ body {
     color: white;
     flex-basis: 25%;
     text-align: center;
+    padding: 0 30px 0 30px;
 }
 
 .leftSide > img {
@@ -91,6 +93,13 @@ body {
     justify-content: space-between;
     padding-bottom: 15px;
     padding-top: 15px;
+    background-color: blue;
+    max-height: 120px;
+}
+
+.desktopNav > a {
+    margin: 10px 10px;
+    
 }
 
 .desktopNav > a:link {
@@ -116,6 +125,7 @@ body {
     width: 8rem;
     height: 2rem;
     border-radius: 5%;
+    margin-top: 15px;
 }
 
 .rightSide {
@@ -185,5 +195,29 @@ body {
 
 .blogBody > img {
     flex: 1;
-    padding-right: 16px;
+    padding-right: 10px;
+}
+
+.postBody {
+    padding: 36px 10px 15px 105px;
+    
+}
+
+.postBody > div > span {
+    font-size: 13px;
+    padding-top: 10px ;
+    color: #BBBBBB;
+}
+
+.postBody > span, p {
+    font-size: 13px;
+}
+
+.postBody > img {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.postBody > p {
+    width: 560px;
 }
